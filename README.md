@@ -29,7 +29,7 @@ Or use the Visual Studio NuGet Package Manager UI to search for TCMBRatesClient.
 
 Basic Example
 
-Below is an example of fetching exchange rate data for a specific date and time:
+Fetch today's rates:
 
 ```csharp
 using TCMBRatesClient.TCMBClient;
@@ -38,10 +38,18 @@ ITcmbClient client = new TcmbClient();
 
 var rates = await client.GetTodayRatesAsync();
 
-foreach (var rate in rates.ExchangeRates)
+foreach (var rate in rates)
 {
     Console.WriteLine($"{rate.NameTr} - {rate.ForexBuying} - {rate.ForexSelling}");
 }
+```
+
+Filter by currency:
+
+```csharp
+using TCMBRatesClient.Models;
+
+var usd = await client.GetTodayRatesAsync(new CurrencyFilter { CurrencyCode = "USD" }, CancellationToken.None);
 ```
 ---
 ## Models
