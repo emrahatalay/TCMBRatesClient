@@ -73,4 +73,4 @@ For inquiries or support, please contact:
 
 ---
 
-<sub>Made by **Emrah Atalay** at <a href="https://eatalay.dev/en">eatalay.dev</a>: mobile apps, games and automation, built with AI and finished by a human.</sub>
+<sub>Made by **Emrah Atalay** at <a href="https://eatalay.dev/en">eatalay.dev</a>: web and mobile apps, games and automation, built with AI and finished by a human.</sub>
