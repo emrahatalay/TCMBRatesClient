@@ -1,3 +1,5 @@
+<a href="https://www.nuget.org/packages/TCMBRatesClient"><img src=".github/readme/banner.svg" width="100%" alt="TCMBRatesClient — .NET client for Turkish central bank exchange rates, on NuGet."></a>
+
 # TCMBRatesClient
 
 **TCMBRatesClient** is a .NET library for fetching exchange rates from the Central Bank of Turkey (TCMB). This package simplifies retrieving hourly exchange rate data as XML from the TCMB's official service.
@@ -60,3 +62,7 @@ This package is licensed under the MIT License. See the LICENSE file for more de
 
 For inquiries or support, please contact:
 - Email: [emrah.atalay@outlook.com](mailto:emrah.atalay@outlook.com)
+
+---
+
+<sub>Made by **Emrah Atalay** at <a href="https://eatalay.dev/en">eatalay.dev</a>: mobile apps, games and automation, built with AI and finished by a human.</sub>
